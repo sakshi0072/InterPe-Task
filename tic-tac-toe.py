@@ -79,6 +79,7 @@ def play_tic_tac_toe():
     if winner:
         if winner == 'X':
             winner_name = 'Player X'
+            
         else:
             winner_name = 'Player O'
         print(f"{winner_name} wins!")
